@@ -1,0 +1,14 @@
+<div>
+	<form name="inputForm">
+		<input name="inputForm"
+			  type="text"
+			  uib-typeahead="c.company for c in grid.appScope.companies | filter: $viewValue"
+			  typeahead-append-to-body="true"
+			  typeahead-min-length="0"
+			  typeahead-wait-ms="500"
+			  typeahead-on-select=""
+			  typeahead-editable="false"
+			  placeholder="Enter company"
+			  ng-model="MODEL_COL_FIELD" />
+	</form>
+</div>

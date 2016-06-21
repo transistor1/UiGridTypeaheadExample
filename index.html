@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="Stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+		<link rel="Stylesheet" type="text/css" href="bower_components/angular-ui-grid/ui-grid.css" />
+		<link rel="Stylesheet" type="text/css" href="index.css" />
+	</head>
+	
+	<body ng-app="myApp" ng-controller="myCtrl">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div>
+						<div id="myGrid"
+							 ui-grid="gridOptions"
+							 ui-grid-edit
+							 ui-grid-cellNav
+							 ui-grid-resize-columns
+						>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-resource/angular-resource.js"></script>
+		<script src="bower_components/angular-ui-grid/ui-grid.js"></script>
+		<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>		
+		<script src="index.js"></script>
+	</body>
+</html>
